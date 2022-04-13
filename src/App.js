@@ -13,7 +13,7 @@ function App() {
       <Route path="/movies/:id" children={<Movie />} />
       <Route path="*" exact>
         <Home />
-        <h1>Error 404, page not found!</h1>
+        <h1>Error 404!</h1>
       </Route>
     </Switch>
   );
